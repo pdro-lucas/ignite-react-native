@@ -19,9 +19,9 @@ export default function Index() {
   return (
     <ThemeProvider theme={theme}>
       <StatusBar
-        barStyle="dark-content"
+        barStyle="light-content"
         backgroundColor="transparent"
-        translucent={true}
+        translucent
       />
       {fontsLoaded ? <Groups /> : <Loading />}
     </ThemeProvider>
